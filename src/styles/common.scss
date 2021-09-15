@@ -1,3 +1,14 @@
-.button {
+@import "colors";
 
+.button {
+  background-color: $links;
+  color: $text;
+  border: none;
+  text-transform: uppercase;
+  width: max-content;
+  transition:  all 0.5s ease;
+  border-radius: 3px;
+  &:hover {
+    background-color: $hover;
+  }
 }

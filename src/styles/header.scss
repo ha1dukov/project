@@ -1,7 +1,9 @@
+@import "colors";
+
 .header {
   height: 100px;
   width: 100%;//100vw
-  background-color: #000000;
+  background-color: $theme;
 
 }
 .header__list {
@@ -10,11 +12,13 @@
   align-items: center;
   height: 100%;
   width: 100%;
+  text-transform: uppercase;
 
 }
 .header__item {
   color: #ffffff;
   margin-right: 20px;
+  cursor: pointer;
 
 }
 .header__item:last-child {

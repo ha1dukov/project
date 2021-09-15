@@ -1,7 +1,7 @@
 .header {
   height: 100px;
   width: 100%;
-  background-color: #000000;
+  background-color: #051c10;
 }
 
 .header__list {
@@ -10,35 +10,38 @@
   align-items: center;
   height: 100%;
   width: 100%;
+  text-transform: uppercase;
 }
 
 .header__item {
   color: #ffffff;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .header__item:last-child {
   margin-right: 0;
 }
 
-.main img {
+.main {
+  height: calc(100vh - 190px);
   width: 100%;
-  height: auto;
+  background: url("../images/back.jpg") center/cover no-repeat;
 }
 
 .footer {
   height: 100px;
   width: 100%;
-  background-color: #000000;
+  margin-top: -10px;
+  background-color: #051c10;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.button {
-  background-color: aquamarine;
-  color: #ffffff;
-  border: none;
+.footer__button {
+  padding: 0 30px;
+  height: 45px;
+  line-height: 45px;
 }
 
 body, h1, h2, h3, h4 {
@@ -47,14 +50,34 @@ body, h1, h2, h3, h4 {
 }
 
 a {
-  color: #ffffff;
+  color: #2c8768;
   text-decoration: none;
   cursor: pointer;
+  transition: color 0.5s ease;
+}
+
+a:hover {
+  color: #42cb99;
+  text-decoration: underline;
 }
 
 ul {
   padding: 0;
+  margin: 0;
   list-style: none;
+}
+
+.button {
+  background-color: #2c8768;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  width: max-content;
+  transition: all 0.5s ease;
+  border-radius: 3px;
+}
+.button:hover {
+  background-color: #42cb99;
 }
 
 /*# sourceMappingURL=style.css.map */

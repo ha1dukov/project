@@ -1,13 +1,17 @@
+@import "colors";
+
 .footer {
   height: 100px;
   width: 100%;//100vw
-  background-color: #000000;
+  margin-top: -10px;
+  background-color: $theme;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.button {
-  background-color: aquamarine;
-  color: #ffffff;
-  border: none;
+
+  &__button {
+    padding: 0 30px;
+    height: 45px;
+    line-height: 45px;
+  }
 }
