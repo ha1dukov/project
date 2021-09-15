@@ -1,0 +1,22 @@
+.header {
+  height: 100px;
+  width: 100%;//100vw
+  background-color: #000000;
+
+}
+.header__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+}
+.header__item {
+  color: #ffffff;
+  margin-right: 20px;
+
+}
+.header__item:last-child {
+  margin-right: 0;
+}
