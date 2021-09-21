@@ -1,6 +1,16 @@
-.main  {
-  height: calc(100vh - 190px);
-  width: 100%;
-  background: url("../images/back.jpg") center/cover no-repeat;
+@import "colors";
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+.side__menu{
+  height:995px;
+  width: 280px;
+  background: $menu_back;
 
+}
+.general__menu {
+  height:995px;
+  width: 1620px;
+  background-image: url("../images/back.png");
 }
